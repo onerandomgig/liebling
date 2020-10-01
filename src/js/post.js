@@ -137,8 +137,8 @@ $(document).ready(() => {
     $recommendedArticles.slick({
       arrows: true,
       infinite: true,
-      prevArrow: '<button class="m-icon-button filled in-recommended-articles slick-prev" aria-label="Previous"><span class="icon-arrow-left"></span></button>',
-      nextArrow: '<button class="m-icon-button filled in-recommended-articles slick-next" aria-label="Next"><span class="icon-arrow-right"></span></button>',
+      prevArrow: '<button class="m-icon-button filled in-recommended-articles slick-prev" aria-label="Previous"><span class="fas fa-arrow-left"></span></button>',
+      nextArrow: '<button class="m-icon-button filled in-recommended-articles slick-next" aria-label="Next"><span class="fas fa-arrow-right"></span></button>',
       mobileFirst: true,
       responsive: [
         {

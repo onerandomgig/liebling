@@ -9,10 +9,10 @@ This header template is shared across all the pages.
 {{/if}}
   <div class="m-mobile-topbar" data-aos="fade-down">
     <button class="m-icon-button in-mobile-topbar js-open-menu" aria-label="Open menu">
-      <span class="icon-menu"></span>
+      <span class="fas fa-bars"></span>
     </button>
     {{#if @site.logo}}
-      <a href="{{@site.url}}" class="m-logo in-mobile-topbar">
+      <a href="{{@site.url}}/../" class="m-logo in-mobile-topbar">
         <img src="{{@site.logo}}" alt="{{@site.title}}">
       </a>
     {{else}}
@@ -21,13 +21,13 @@ This header template is shared across all the pages.
       </a>
     {{/if}}
     <button class="m-icon-button in-mobile-topbar js-open-search" aria-label="Open search">
-      <span class="icon-search"></span>
+      <span class="fas fa-search"></span>
     </button>
   </div>
 
   <div class="m-menu js-menu">
     <button class="m-icon-button outlined as-close-menu js-close-menu" aria-label="Close menu">
-      <span class="icon-close"></span>
+      <span class="fas fa-times"></span>
     </button>
     <div class="m-menu__main" data-aos="fade-down">
       <div class="l-wrapper">
@@ -36,7 +36,7 @@ This header template is shared across all the pages.
             <ul role="submenu">
               {{#if @site.logo}}
                 <li class="only-desktop" role="menuitem">
-                  <a href="{{@site.url}}" class="m-logo">
+                  <a href="{{@site.url}}/../" class="m-logo">
                     <img src="{{@site.logo}}" alt="{{@site.title}}">
                   </a>
                 </li>
@@ -52,7 +52,7 @@ This header template is shared across all the pages.
               {{/if}}
               <li role="menuitem" class="js-submenu-option">
                 <button class="m-icon-button in-menu-main more js-toggle-submenu" aria-label="Toggle submenu">
-                  <span class="icon-more"></span>
+                  <span class="fas fa-chevron-down"></span>
                 </button>
                 <div class="m-submenu js-submenu">
                   <div class="l-wrapper in-submenu">
@@ -103,7 +103,7 @@ This header template is shared across all the pages.
           </nav>
           <div class="m-nav__right">
             <button class="m-icon-button in-menu-main js-open-search" aria-label="Open search">
-              <span class="icon-search"></span>
+              <span class="fas fa-search"></span>
             </button>
             <div class="m-toggle-darkmode js-tooltip" data-tippy-content="{{t "Toggle dark mode"}}">
               <input type="checkbox" class="js-toggle-darkmode">
